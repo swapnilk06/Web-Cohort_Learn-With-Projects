@@ -22,7 +22,7 @@
 
 5] Update `vite.config.js` file
 
-```json
+```js
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
@@ -39,8 +39,13 @@ export default defineConfig({
 });
 ```
 
-6] `npx shadcn@latest init`
+6] Import Tailwind CSS & update with -> `src/index.css`
+```
+@import "tailwindcss";
+```
 
-7] Start adding component -> `npx shadcn@latest add button`
+7] `npx shadcn@latest init`
+
+8] Start adding component -> `npx shadcn@latest add button`
 
 ###### <i>Shadcn with reactJS installation with working done. </i>
