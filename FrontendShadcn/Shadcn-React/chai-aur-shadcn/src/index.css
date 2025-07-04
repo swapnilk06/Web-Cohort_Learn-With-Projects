@@ -1,14 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-body,
-html,
-#root {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-}
-
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -119,6 +111,15 @@ html,
 }
 
 @layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
   * {
     @apply border-border outline-ring/50;
   }
